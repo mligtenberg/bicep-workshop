@@ -15,7 +15,7 @@ open de aangegeven link en login met het account dat jouw is toebedeeld
 
 ### Troubleshooting
 Mocht VS Code roepen dat dotnet niet gevonden kon worden, volg de stappen in dit artikel.
-https://rakhesh.com/azure/dotnet_install-error-could-not-find-net-core-runtime-with-version-5-0-11/
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/installation-troubleshoot
 
 ## De opdrachten
 - [Opdracht 1](./Opdracht%201/Opdracht.md)

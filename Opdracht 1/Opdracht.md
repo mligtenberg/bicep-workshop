@@ -36,7 +36,15 @@ Voor een Azure function zijn de volgende app settings nodig
 </p>
 </details>
 
-<details><summary>Hint 2: app settings uitgewerkt</summary>
+<details><summary>Hint 2: een storage connection string</summary>
+<p>
+``` text
+DefaultEndpointsProtocol=https;AccountName=stor;EndpointSuffix=core.windows.net;AccountKey=thisisnotarealkey
+```
+</p>
+</details>
+
+<details><summary>Hint 3: app settings uitgewerkt</summary>
 <p>
 ``` bicep
   {

@@ -37,16 +37,15 @@ Voor een Azure function zijn de volgende app settings nodig
 </details>
 
 <details><summary>Hint 2: een storage connection string</summary>
-<p>
-``` text
+
+```text
 DefaultEndpointsProtocol=https;AccountName=stor;EndpointSuffix=core.windows.net;AccountKey=thisisnotarealkey
 ```
-</p>
 </details>
 
 <details><summary>Hint 3: app settings uitgewerkt</summary>
-<p>
-``` bicep
+
+```bicep
   {
     name: 'AzureWebJobsStorage'
     value: 'DefaultEndpointsProtocol=https;AccountName=${functionStorageAccount.name};EndpointSuffix=${environment().suffixes.storage};AccountKey=${listKeys(functionStorageAccount.id, functionStorageAccount.apiVersion).keys[0].value}'
@@ -68,5 +67,4 @@ DefaultEndpointsProtocol=https;AccountName=stor;EndpointSuffix=core.windows.net;
     value: 'dotnet-isolated'
   }
 ```
-</p>
 </details>

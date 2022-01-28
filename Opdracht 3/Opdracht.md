@@ -8,11 +8,15 @@ Maak een system assigned managed identity voor de functie. Geef de 'EventGrid Da
 
 voeg een setting aan de azure function toe genaamd ``EventGridEndpoint`` met daarin de het publishing endpoint van het eventgrid topic
 
+Maak een event subscription naar de event grid viewer op het volgende endpoint ``https://{baseurl}/api/updates``
+
 ![schematic](../img/Opdracht3.png)
 
 als je klaar bent kan je het worksheet deployen naar je resourcegroup via het volgende commando:
 ```azurecli
-az deployment deployment group create --resource-group {{Jouw resourcegroup}} --name opdracht1 --template-file worksheet.bicep   
+az deployment group create --resource-group {{Jouw resourcegroup}} --name opdracht3 --template-file worksheet.bicep   
 ```
 
-Hierna kan je de functie in de 'Function Sources' folder deployen via een IDE naar keuze.
+Hierna kan je de functie in de 'Function Sources' folder deployen via een IDE naar keuze. Gebruik hiervoor ``{resourceGroupName}func``
+
+De FunctionApp bevat 1 functie. Haal de url op via het Azure Portal. Als je deze aanroept word een event verstuurt die je via EventGrid Viewer kan uitlezen

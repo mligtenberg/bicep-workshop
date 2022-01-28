@@ -26,5 +26,5 @@ De function heeft de volgende specificaties:
 
 als je klaar bent kan je het worksheet deployen naar je resourcegroup via het volgende commando:
 ```azurecli
-az deployment deployment group create --resource-group {{Jouw resourcegroup}} --name opdracht1 --template-file worksheet.bicep   
+az deployment group create --resource-group {{Jouw resourcegroup}} --name opdracht2 --template-file worksheet.bicep   
 ```

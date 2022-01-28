@@ -19,7 +19,7 @@ Als je niet weet waar te beginnen, klik hem eerst eens in het Azure Portal bij e
 
 als je klaar bent kan je het worksheet deployen naar je resourcegroup via het volgende commando:
 ```azurecli
-az deployment deployment group create --resource-group {{Jouw resourcegroup}} --name opdracht1 --template-file worksheet.bicep   
+az deployment group create --resource-group {{Jouw resourcegroup}} --name opdracht1 --template-file worksheet.bicep   
 ```
 
 <details><summary>Hint 1: app settings</summary>

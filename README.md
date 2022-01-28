@@ -17,6 +17,9 @@ open de aangegeven link en login met het account dat jouw is toebedeeld
 Mocht VS Code roepen dat dotnet niet gevonden kon worden, volg de stappen in dit artikel.
 https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/installation-troubleshoot
 
+## Handige links
+- [Resource templates voor Azure](https://docs.microsoft.com/en-us/azure/templates/)
+
 ## De opdrachten
 - [Opdracht 1](./Opdracht%201/Opdracht.md)
 - [Opdracht 2](./Opdracht%202/Opdracht.md)

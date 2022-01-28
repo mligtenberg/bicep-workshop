@@ -11,7 +11,12 @@ login op de azure cli met het volgende commando
 ```
 az login --use-device-code
 ```
-open de aangegeven link en login met het account dat jouw is toebedeeld
+
+Voor de zekerheid selecteer de de juiste via het volgende commando
+```
+az account set -s {subscriptionId}
+``` 
+
 
 ### Troubleshooting
 Mocht VS Code roepen dat dotnet niet gevonden kon worden, volg de stappen in dit artikel.

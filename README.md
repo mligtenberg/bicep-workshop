@@ -1,6 +1,6 @@
 # bicep workshop
-
 ## Voor we starten
+- Download dit repo lokaal
 - [download VS Code](https://code.visualstudio.com/download)
 - [Installeer dotnet](https://dotnet.microsoft.com/en-us/download)
 - [installeer de bicep plugin](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-bicep)

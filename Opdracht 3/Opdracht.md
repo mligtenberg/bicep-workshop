@@ -4,7 +4,7 @@ Voordat we deze opdracht beginnen, deploy een instance van Eventgrid viewer vanu
 Neem het template uit de vorige opdracht over, we func2 niet meer nodig.
 Maak een nieuw eventgrid topic aan.
 
-Maak een system assigned managed identity voor de functie. Geef de 'EventGrid Data Sender role' aan je de system assigned managed identity zodat die naar het eventgrid topic kan zenden.
+Maak een system assigned managed identity voor de functie. Geef de 'EventGrid Data Sender role' aan je de system assigned managed identity zodat die naar het eventgrid topic kan zenden.Het id is ``/providers/Microsoft.Authorization/roleDefinitions/d5a91429-5739-47e2-a06b-3470a27159e7``
 
 voeg een setting aan de azure function toe genaamd ``EventGridEndpoint`` met daarin de het publishing endpoint van het eventgrid topic
 

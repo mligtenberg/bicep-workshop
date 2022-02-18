@@ -1,6 +1,8 @@
 # Opdracht 2
 Nu we hebben geleerd dat we templates kunnen refereren word het tijd om dit in de praktijk te brengen. kopieer het worksheet uit opdracht 1 naar de opdracht folder. Abstaheer het, en maak een template waarmee je 2 functies aanmaakt.
 
+Download [hier](https://gist.github.com/mligtenberg/4f3258c3ecf4abc943e4cea8f05fe34e) de uitwerking van opdracht 1, mocht deze nog niet klaar zijn.
+
 Functie 1 heeft de volgende specificaties
 De function heeft de volgende specificaties:
 - OS: windows

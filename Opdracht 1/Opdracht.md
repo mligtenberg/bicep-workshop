@@ -7,13 +7,13 @@ Maak een template voor een Azure function in het bestand worksheet.bicep
 
 De function heeft de volgende specificaties:
 - OS: windows
-- plan: Consumption
-- Https Only
-- FTPS only
+- plan: Consumption (Y1)
 - default function app settings
 - de app moet in de zelfde regio als de function draaien
 - de functie is een v4 dotnet-isolated functie
 - de function naam is '${resourcegroupname}func'
+
+Het Storage account staat al voor je klaar in het worksheet. De settings nodig voor de site zijn te vinden onder Hint 1. Hier staan niet de waardes bij, alleen de omschrijvingen.
 
 Als je niet weet waar te beginnen, klik hem eerst eens in het Azure Portal bij elkaar, en druk export
 
@@ -36,14 +36,21 @@ Voor een Azure function zijn de volgende app settings nodig
 </p>
 </details>
 
-<details><summary>Hint 2: een storage connection string</summary>
+<details><summary>Hint 2: Benodigde resources</summary>
+
+Voor het app service plan: [Microsoft.Web/serverfarms](https://docs.microsoft.com/en-us/azure/templates/Microsoft.Web/serverfarms?tabs=bicep)  
+Voor het app service (function): [Microsoft.Web/sites](https://docs.microsoft.com/en-us/azure/templates/Microsoft.Web/sites?tabs=bicep)
+
+</details>
+
+<details><summary>Hint 3: een storage connection string</summary>
 
 ```text
 DefaultEndpointsProtocol=https;AccountName=stor;EndpointSuffix=core.windows.net;AccountKey=thisisnotarealkey
 ```
 </details>
 
-<details><summary>Hint 3: app settings uitgewerkt</summary>
+<details><summary>Hint 4: app settings uitgewerkt</summary>
 
 ```bicep
   {

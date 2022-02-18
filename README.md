@@ -2,7 +2,7 @@
 ## Voor we starten
 - Download dit repo lokaal
 - [download VS Code](https://code.visualstudio.com/download)
-- [Installeer dotnet](https://dotnet.microsoft.com/en-us/download)
+- [Installeer dotnet 6](https://dotnet.microsoft.com/en-us/download)
 - [installeer de bicep plugin](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-bicep)
 - [installeer Azure cli](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
 

@@ -20,3 +20,6 @@ az deployment group create --resource-group {{Jouw resourcegroup}} --name opdrac
 Hierna kan je de functie in de 'Function Sources' folder deployen via een IDE naar keuze. Gebruik hiervoor ``{resourceGroupName}func``
 
 De FunctionApp bevat 1 functie. Haal de url op via het Azure Portal. Als je deze aanroept word een event verstuurt die je via EventGrid Viewer kan uitlezen
+
+Klaar? Care for a challenge?
+[Probeer de bonus opdracht](../Opdracht%20Bonus/Opdracht.md)
